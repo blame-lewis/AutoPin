@@ -39,10 +39,10 @@ extern "C" {
 	int  __declspec(dllimport) abs(_In_ int _X);
 #endif //_INC_STDLIB
 
-	int __declspec(dllimport) _snwprintf(wchar_t *buffer, size_t count, const wchar_t *format, ...);
-	int __declspec(dllimport) _snprintf(char *buffer, size_t count, const char *format, ...);
-	int __declspec(dllimport) sscanf(const char *input, const char * format, ...);
-	int __declspec(dllimport) swscanf(const wchar_t *input, const wchar_t * format, ...);
+	//int __declspec(dllimport) _snwprintf(wchar_t *buffer, size_t count, const wchar_t *format, ...);
+	//int __declspec(dllimport) _snprintf(char *buffer, size_t count, const char *format, ...);
+	//int __declspec(dllimport) sscanf(const char *input, const char * format, ...);
+	//int __declspec(dllimport) swscanf(const wchar_t *input, const wchar_t * format, ...);
 
 	uintptr_t __declspec(dllimport) _beginthreadex(
 		void *security,
